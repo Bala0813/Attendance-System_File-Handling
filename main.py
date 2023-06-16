@@ -312,19 +312,11 @@ while access_point:
     settings = AttendanceSettings()
     if choice == 1:
         addrollcall.start_roll_call()
-        # pass
-        # startRollCall()
     if choice == 2:
         settings.roll_call()
-        # pass
-        # rollCall()
     if choice == 3:
         settings.update_attendance()
-        # pass
-        # updateAttendance()
     if choice == 4:
         settings.modify_attendance()
-        # pass
-        # modifyAttendance()
     if choice == 5:
         access_point = False
